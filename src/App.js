@@ -5,11 +5,9 @@ import WritePage from "./pages/WritePage";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/write" element={<WritePage />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/write" element={<WritePage />} />
+      </Routes>
     </>
   );
 }
